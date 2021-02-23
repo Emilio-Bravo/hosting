@@ -44,15 +44,19 @@ function setMoney(name, amount, attr) {
   }
 }
 function substract(amount) {
-  let result = get("ma").textContent - amount;
-  get("ma").textContent = "";
-  get("ma").textContent = result;
+  if (document.getElementById("character").textContent != "Don Vicente") {
+    let result = get("ma").textContent - amount;
+    get("ma").textContent = "";
+    get("ma").textContent = result;
+  }
 }
 function add(amount) {
-  let num = parseFloat(get("ma").textContent);
-  let result = num + amount;
-  get("ma").textContent = "";
-  get("ma").textContent = result;
+  if (document.getElementById("character").textContent != "Don Vicente") {
+    let num = parseFloat(get("ma").textContent);
+    let result = num + amount;
+    get("ma").textContent = "";
+    get("ma").textContent = result;
+  }
 }
 const get = (name) => document.getElementById(name);
 function buy() {
