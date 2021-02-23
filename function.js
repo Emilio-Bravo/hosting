@@ -74,7 +74,7 @@ function buy() {
   });
   /* SR-71 */
   get("o_4").addEventListener("click", () => {
-    substract(400000);
+    substract(40000000);
   });
   /* Mansion */
   get("o_5").addEventListener("click", () => {
@@ -116,7 +116,7 @@ function sell() {
   });
   /* SR-71 */
   get("o_4s").addEventListener("click", () => {
-    add(400000);
+    add(40000000);
   });
   /* Mansion */
   get("o_5s").addEventListener("click", () => {
