@@ -334,4 +334,8 @@ footer p {
     top: 7%;
   }
 }
+@media (max-width:1600px) and (max-height:740px) {
+  nav {
+    top:8%;
+}
 /*END RESPONSIVE*/
