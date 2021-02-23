@@ -318,5 +318,8 @@ footer p {
   header h1 {
     display: none;
   }
+  nav {
+    width:60%;
+  }
 }
 /*END RESPONSIVE*/
