@@ -44,15 +44,19 @@ function setMoney(name, amount, attr) {
   }
 }
 function substract(amount) {
-  let result = get("ma").textContent - amount;
-  get("ma").textContent = "";
-  get("ma").textContent = result;
+  if (document.getElementById("character").textContent != "Don Vicente") {
+    let result = get("ma").textContent - amount;
+    get("ma").textContent = "";
+    get("ma").textContent = result;
+  }
 }
 function add(amount) {
-  let num = parseFloat(get("ma").textContent);
-  let result = num + amount;
-  get("ma").textContent = "";
-  get("ma").textContent = result;
+  if (document.getElementById("character").textContent != "Don Vicente") {
+    let num = parseFloat(get("ma").textContent);
+    let result = num + amount;
+    get("ma").textContent = "";
+    get("ma").textContent = result;
+  }
 }
 const get = (name) => document.getElementById(name);
 function buy() {
@@ -90,7 +94,7 @@ function buy() {
   });
   /* Private yet */
   get("o_9").addEventListener("click", () => {
-    substract(3000);
+    substract(3000000);
   });
   /* White House */
   get("o_10").addEventListener("click", () => {
@@ -132,7 +136,7 @@ function sell() {
   });
   /* Private yet */
   get("o_9s").addEventListener("click", () => {
-    add(3000);
+    add(3000000);
   });
   /* White House */
   get("o_10s").addEventListener("click", () => {
