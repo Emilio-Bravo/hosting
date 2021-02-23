@@ -319,7 +319,7 @@ footer p {
     display: none;
   }
   nav {
-    width:60%;
+    width:60% !important;
   }
 }
 /*END RESPONSIVE*/
