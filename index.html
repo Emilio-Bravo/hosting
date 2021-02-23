@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <script src="main.js"></script>
+    <script src="function.js"></script>
+    <title>The power of money</title>
+  </head>
+  <body>
+    <div id="effect"></div>
+    <!--Loader-->
+    <div class="loaderContainer">
+      <div class="lds-default">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <!--End loader-->
+    <!--Header-->
+    <header>
+      <button id="toggler"><p>|||</p></button>
+      <h1>The power of money</h1>
+      <span id="character"></span>
+      <div class="money_amount">$<span id="ma">0</span></div>
+    </header>
+    <!--End header-->
+    <!--Nav-->
+    <nav id="menu">
+      <h2>Choose a rich</h2>
+      <ul>
+        <li id="outstanding" class="c_option">Don Vicente</li>
+        <li class="c_option" id="c_1">Jeff Bezos</li>
+        <li class="c_option" id="c_2">Elon Musk</li>
+        <li class="c_option" id="c_3">Bill Gates</li>
+        <li class="c_option" id="c_4">Mark Zuckerberg</li>
+        <li class="c_option" id="c_5">Warren Buffet</li>
+      </ul>
+    </nav>
+    <!--End nav-->
+    <!--Main-->
+    <main>
+      <!--Option-->
+      <div class="option">
+        <div class="img">
+          <img src="img/buggati.jpg" alt="Buggati Chiron" loading="lazy" />
+        </div>
+        <div class="data">
+          <h3>Bugatti Chiron</h3>
+          <p id="price">$3,000,000</p>
+        </div>
+        <div class="user_options">
+          <button id="o_1">Buy</button>
+          <button id="o_1s">Sell</button>
+        </div>
+      </div>
+      <!--End option-->
+      <!--Option-->
+      <div class="option">
+        <div class="img">
+          <img src="img/iph.jpg" alt="Iphone 12 Pro Max" loading="lazy" />
+        </div>
+        <div class="data">
+          <h3>Iphone 12 Pro Max</h3>
+          <p id="price">$1650</p>
+        </div>
+        <div class="user_options">
+          <button id="o_2">Buy</button>
+          <button id="o_2s">Sell</button>
+        </div>
+      </div>
+      <!--End option-->
+      <!--Option-->
+      <div class="option">
+        <div class="img">
+          <img src="img/cc.jpg" alt="Coca Cola" loading="lazy" />
+        </div>
+        <div class="data">
+          <h3>Coca Cola</h3>
+          <p id="price">$1.50</p>
+        </div>
+        <div class="user_options">
+          <button id="o_3">Buy</button>
+          <button id="o_3s">Sell</button>
+        </div>
+      </div>
+      <!--End option-->
+      <!--Option-->
+      <div class="option">
+        <div class="img">
+          <img src="img/sr.jpg" alt="SR-71" loading="lazy" />
+        </div>
+        <div class="data">
+          <h3>SR-71</h3>
+          <p id="price">$40,000,000</p>
+        </div>
+        <div class="user_options">
+          <button id="o_4">Buy</button>
+          <button id="o_4s">Sell</button>
+        </div>
+      </div>
+      <!--End option-->
+      <!--Option-->
+      <div class="option">
+        <div class="img">
+          <img src="img/mainsion.jpg" alt="Mansion" loading="lazy" />
+        </div>
+        <div class="data">
+          <h3>Mansion</h3>
+          <p id="price">$5,000,000</p>
+        </div>
+        <div class="user_options">
+          <button id="o_5">Buy</button>
+          <button id="o_5s">Sell</button>
+        </div>
+      </div>
+      <!--End option-->
+      <!--Option-->
+      <div class="option">
+        <div class="img">
+          <img src="img/sk.jpg" alt="Skyscrapper" loading="lazy" />
+        </div>
+        <div class="data">
+          <h3>Skyscrapper</h3>
+          <p id="price">$15,000,000</p>
+        </div>
+        <div class="user_options">
+          <button id="o_6">Buy</button>
+          <button id="o_6s">Sell</button>
+        </div>
+      </div>
+      <!--End option-->
+      <!--Option-->
+      <div class="option">
+        <div class="img">
+          <img src="img/bj.jpg" alt="Night at Burj Al Arab" loading="lazy" />
+        </div>
+        <div class="data">
+          <h3>Night at Burj Al Arab</h3>
+          <p id="price">$40,000</p>
+        </div>
+        <div class="user_options">
+          <button id="o_7">Buy</button>
+          <button id="o_7s">Sell</button>
+        </div>
+      </div>
+      <!--End option-->
+      <!--Option-->
+      <div class="option">
+        <div class="img">
+          <img src="img/ac.jpg" alt="AC-130" loading="lazy" />
+        </div>
+        <div class="data">
+          <h3>AC-130</h3>
+          <p id="price">$130,000,000</p>
+        </div>
+        <div class="user_options">
+          <button id="o_8">Buy</button>
+          <button id="o_8s">Sell</button>
+        </div>
+      </div>
+      <!--End option-->
+      <!--Option-->
+      <div class="option">
+        <div class="img">
+          <img src="img/pr.jpg" alt="Private Jet" loading="lazy" />
+        </div>
+        <div class="data">
+          <h3>Private Jet</h3>
+          <p id="price">$3,000,000</p>
+        </div>
+        <div class="user_options">
+          <button id="o_9">Buy</button>
+          <button id="o_9s">Sell</button>
+        </div>
+      </div>
+      <!--End option-->
+      <!--Option-->
+      <div class="option">
+        <div class="img">
+          <img src="img/wh.jpg" alt="White House" loading="lazy" />
+        </div>
+        <div class="data">
+          <h3>White House</h3>
+          <p id="price">$400,000,000</p>
+        </div>
+        <div class="user_options">
+          <button id="o_10">Buy</button>
+          <button id="o_10s">Sell</button>
+        </div>
+      </div>
+      <!--End option-->
+    </main>
+    <!--ClearFix-->
+    <div class="ClearFix"></div>
+    <!--End ClearFix-->
+    <!--End main-->
+    <!--Footer-->
+    <footer>
+      <p>&copy; The Power Of Money</p>
+    </footer>
+    <!--End footer-->
+  </body>
+</html>
