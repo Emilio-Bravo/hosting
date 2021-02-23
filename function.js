@@ -94,7 +94,7 @@ function buy() {
   });
   /* Private yet */
   get("o_9").addEventListener("click", () => {
-    substract(3000);
+    substract(3000000);
   });
   /* White House */
   get("o_10").addEventListener("click", () => {
@@ -136,7 +136,7 @@ function sell() {
   });
   /* Private yet */
   get("o_9s").addEventListener("click", () => {
-    add(3000);
+    add(3000000);
   });
   /* White House */
   get("o_10s").addEventListener("click", () => {
